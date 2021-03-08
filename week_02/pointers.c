@@ -11,7 +11,7 @@ int main()
 
     // the * is for create a pointer variable
     int *pointer = &nr;
-    // I gues this printf the MEMORY as an INT adress of  pointer= that hols the Memory adress of nr
+    // I gues this printf the MEMORY as an INT adress of  pointer= that holds the Memory adress of nr
     printf("this is what the  &pointer point to: %d\n", &pointer);
     // %p I gues this print the MEMORY as HEX adress of  pointer= that hols the Memory adress of nr
     printf("this is what the  &pointer point to: %p\n", &pointer);
